@@ -1,24 +1,5 @@
-@font-face {
-    font-family: 'BandeinsStrangeLight';
-    src: url('./assets/fonts/BandeinsStrangeLight.otf') format('opentype');
-}
-
-@font-face {
-    font-family: 'BandeinsStrangeLightExtendedHalf';
-    src: url('./assets/fonts/BandeinsStrangeLightExtendedHalf.otf') format('opentype');
-}
-
-@font-face {
-    font-family: 'BandeinsStrangeLightExtendedFull';
-    src: url('./assets/fonts/BandeinsStrangeLightExtendedFull.otf') format('opentype');
-}
-
 html body {
   background-color: black;
-
   color: white;
   font-family: 'BandeinsStrangeLight';
-}
-
-.container {
 }

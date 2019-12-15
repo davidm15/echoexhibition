@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'BandeinsStrangeLight';
+  src: url('./assets/fonts/BandeinsStrangeLight.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'BandeinsStrangeLightExtendedHalf';
+  src: url('./assets/fonts/BandeinsStrangeLightExtendedHalf.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'BandeinsStrangeLightExtendedFull';
+  src: url('./assets/fonts/BandeinsStrangeLightExtendedFull.otf') format('opentype');
+}
+
+:root {
+  --color-green: #00ada8;
+  --color-blue: #40a8f5;
+  --color-red: #f57a8c;
+  --color-lila: #9e66c2;
+  --color-debug-line: rgba(255, 255, 255, 0);
+}
